@@ -1,0 +1,96 @@
+body {
+	background: #333;
+	margin: auto;
+	padding: 0 5%;
+}
+
+.topContainer {
+	background: orange;
+	height: 150px;
+	width: 100%;
+	margin: 2% 0 0 0;
+	padding: 0 0 1% 0;
+}
+
+.logo {
+	background: #666;
+	background-image: url(http://www.bigfoto.com/image-leaves.jpg);
+	background-size: 400px;
+	display: inline-block;
+	height: 100px;
+	width: 400px;
+	margin: 2% 0 0 5%;
+	padding: 1.5% 0 0 0;
+	text-align: center;
+}
+
+.logo h1 {
+    vertical-align: middle;
+}
+
+.navbar {
+	background: purple;
+	margin: 0;
+	padding: 5px 0 0 32%;
+}
+
+.navbar button {
+	background-color: #6CD9CA;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 1px	-1px 3px 0; 
+	font-family: Georgia, serif;
+	font-size: 17px;
+	margin: 5px 1% 1px 1px;
+	padding: 1% 1.5%; 
+	width: 100px;
+}
+
+.content {
+	background-color: #E66967;
+	background-image: url(https://ununsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d);
+	background-size: 100%; 
+	color: #FA485D;
+	float: left;
+	margin: 0;
+	width: 71%;
+}
+
+.content h1 {
+	padding: 2% 0 0 5%;
+}
+
+.content p {
+	padding: 0 3% 3% 3%;
+}
+
+.content, .notes {
+	display: inline-block;
+}
+
+.notes {
+	background: #999;
+    margin: auto;
+    padding: 2% 5.1% 63% 0%; 
+}
+
+.notes h2 {
+    margin: auto;
+    padding: 0 0 0 25%;
+}
+
+.notes ul {
+    padding: 0 -20px 0 0; 
+}
+
+footer {
+	background-color: #87D955;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    margin: 0 5% 0 5%;
+}
+
