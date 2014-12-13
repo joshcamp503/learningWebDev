@@ -1,15 +1,11 @@
 body {
 	background: #333;
-	margin: auto;
-	padding: 0 5%;
+    padding: 20px;
 }
 
 .topContainer {
 	background: orange;
-	height: 150px;
-	width: 100%;
-	margin: 2% 0 0 0;
-	padding: 0 0 1% 0;
+    height: 150px;
 }
 
 .logo {
@@ -17,21 +13,21 @@ body {
 	background-image: url(http://www.bigfoto.com/image-leaves.jpg);
 	background-size: 400px;
 	display: inline-block;
-	height: 100px;
-	width: 400px;
-	margin: 2% 0 0 5%;
-	padding: 1.5% 0 0 0;
-	text-align: center;
+    height: 100px;
+    width: 400px;
+    margin: 25px 0 0 25px;
+
 }
 
 .logo h1 {
-    vertical-align: middle;
+    margin: 32.5px 0 0 0;
+    text-align: center;
 }
+
 
 .navbar {
 	background: purple;
-	margin: 0;
-	padding: 5px 0 0 32%;
+    height: 40px;
 }
 
 .navbar button {
@@ -41,10 +37,14 @@ body {
 	border-radius: 5px 5px 0 0;
 	box-shadow: 1px	-1px 3px 0; 
 	font-family: Georgia, serif;
-	font-size: 17px;
-	margin: 5px 1% 1px 1px;
-	padding: 1% 1.5%; 
-	width: 100px;
+	font-size: 15px;
+    height: 30px;
+    width: 80px;
+    margin: 10px 10px 0 10px;
+}
+
+button:nth-child(1) {
+    margin: 0 10px 0 280px;
 }
 
 .content {
@@ -52,36 +52,39 @@ body {
 	background-image: url(https://ununsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?q=75&fm=jpg&s=4f35827a6dc766d393fc51fce493d85d);
 	background-size: 100%; 
 	color: #FA485D;
-	float: left;
-	margin: 0;
-	width: 71%;
+    font-family: Georgia, serif;
+    height: 840px;
+    width: 700px;
 }
 
 .content h1 {
-	padding: 2% 0 0 5%;
+    margin: 20px 0 20px 30px;
 }
 
 .content p {
-	padding: 0 3% 3% 3%;
+    margin: 10px;
 }
 
 .content, .notes {
 	display: inline-block;
+    float: left;
 }
 
 .notes {
 	background: #999;
-    margin: auto;
-    padding: 2% 5.1% 63% 0%; 
+    height: 840px;
+    width: 251px;
 }
 
 .notes h2 {
-    margin: auto;
-    padding: 0 0 0 25%;
+    font-family: Georgia, serif;
+    margin: 10px 0 0 25px;
 }
 
 .notes ul {
-    padding: 0 -20px 0 0; 
+    font-family: Georgia, serif;
+	font-size: 15px;
+    margin: 15px 0 0 0;
 }
 
 footer {
@@ -91,6 +94,6 @@ footer {
     left: 0;
     right: 0;
     height: 20px;
-    margin: 0 5% 0 5%;
+    margin: 0 40px;
 }
 
