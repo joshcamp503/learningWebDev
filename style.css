@@ -65,6 +65,14 @@ body {
     margin: 10px;
 }
 
+.content p a:link {
+    color: #FA485D;
+}
+
+.content p a:visited {
+    color: white;
+}
+
 .content, .notes {
 	display: inline-block;
     float: left;
