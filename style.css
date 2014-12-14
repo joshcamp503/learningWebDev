@@ -30,6 +30,10 @@ body {
     height: 40px;
 }
 
+.navbar a:nth-child(1) {
+    margin: 0 0 0 270px;
+}
+
 .navbar button {
 	background-color: #6CD9CA;
 	border-color: black;
@@ -41,10 +45,6 @@ body {
     height: 30px;
     width: 80px;
     margin: 10px 10px 0 10px;
-}
-
-button:nth-child(1) {
-    margin: 0 10px 0 280px;
 }
 
 .content {
@@ -94,6 +94,5 @@ footer {
     left: 0;
     right: 0;
     height: 20px;
-    margin: 0 40px;
 }
 
